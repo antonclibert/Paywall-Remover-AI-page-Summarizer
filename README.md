@@ -1,7 +1,7 @@
-# Paywall Remover & Summarizer Chrome Extension
+# Paywall Remover & Summarizer Browser Extension
 
 ## Overview
-The **Paywall Remover & Summarizer** Chrome Extension helps users remove paywalls and summarize web pages with ease. It provides a simple interface to access content and get quick summaries directly from the browser.
+The **Paywall Remover & Summarizer** Browser Extension helps users remove paywalls and summarize web pages with ease. It provides a simple interface to access content and get quick summaries directly from the browser.
 
 ## Features
 - 🛑 **Paywall Removal:** Easily access content behind soft paywalls.
