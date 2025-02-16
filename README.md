@@ -15,7 +15,7 @@ The **Paywall Remover & Summarizer** Browser Extension helps users remove paywal
 
 1. **Clone or Download the Repository:**
     ```bash
-    git clone https://github.com/your-username/paywall-remover-summarizer.git
+    https://github.com/antonclibert/Paywall-Remover-AI-page-Summarizer.git
     ```
 
 2. **Open Chrome Extensions:**
