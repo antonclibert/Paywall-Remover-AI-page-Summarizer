@@ -53,5 +53,5 @@ This extension is intended for educational purposes only. Please ensure you comp
 MIT License
 
 ---
-**Version 1.0 | Developed by [Your Name]**
+**Version 1.0 | Developed by Anton **
 
