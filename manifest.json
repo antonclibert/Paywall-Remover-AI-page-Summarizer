@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Paywall Remover & Summarizer",
-    "version": "1.3",
+    "version": "1.0",
     "description": "Removes paywalls and summarizes webpage content using AI.",
     "permissions": ["scripting", "activeTab", "storage"],
     "host_permissions": ["https://*/*", "http://*/*"],
@@ -14,4 +14,3 @@
       }
     }
   }
-  
