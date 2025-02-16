@@ -3,6 +3,7 @@ document.getElementById('prefixButton').addEventListener('click', async () => {
         const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
         if (tab) {
             const currentUrl = tab.url;
+            // You can use your own api or other tools and website to remove paywall like 12ft.io, freedium etc.
             const newUrl = "https://archive.ph/search/?q=" + currentUrl;
             chrome.tabs.update(tab.id, { url: newUrl });
         }
@@ -45,10 +46,12 @@ document.getElementById('prefixButton').addEventListener('click', async () => {
     }
   });
   
-  // Google Gemini API Request Function
+  // Google Gemini API Request Function. you can also use other AI API's including openai,claude etc.
   async function summarizeWithGemini(text) {
-    const API_KEY = "your_API_key"; // Replace with actual API key
-    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${API_KEY}`;
+    // Replace with actual API key
+    const API_KEY = "your_API_key";  
+    // Check the official documentation of googlle gemini api for changing the ai model, or other AI model documentation on how to setup the api endpoint.
+    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${API_KEY}`; 
   
     try {
         console.log("Sending API request to Gemini..."); // Debugging

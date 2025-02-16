@@ -16,6 +16,8 @@
       background: linear-gradient(135deg, #007bff, #6610f2);
       color: white;
       margin: 0;
+      flex-direction: column;
+      box-sizing: border-box;
     }
     .container {
       background: rgba(255, 255, 255, 0.1);
@@ -23,28 +25,30 @@
       border-radius: 12px;
       box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
       text-align: center;
-      width: 90%;
-      max-width: 280px;
+      width: 280px;
+      box-sizing: border-box;
     }
     h2 {
       margin-bottom: 10px;
       font-weight: 600;
+      font-size: 1.5em;
     }
     p {
-      font-size: 14px;
+      font-size: 1em;
       margin-bottom: 15px;
     }
     button {
       background: linear-gradient(45deg, #ff416c, #ff4b2b);
       color: white;
       border: none;
-      padding: 10px 15px;
-      font-size: 14px;
+      padding: 12px 18px;
+      font-size: 1em;
       font-weight: 600;
       border-radius: 8px;
       cursor: pointer;
       transition: 0.3s ease-in-out;
-      margin-bottom: 10px;
+      margin: 10px 0;
+      width: 100%;
     }
     button:hover {
       background: linear-gradient(45deg, #ff4b2b, #ff416c);
@@ -52,7 +56,7 @@
       box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.3);
     }
     #summary {
-      font-size: 12px;
+      font-size: 0.9em;
       background: rgba(255, 255, 255, 0.2);
       padding: 10px;
       border-radius: 8px;
@@ -65,6 +69,13 @@
     #copyButton {
       display: none;
       background: linear-gradient(45deg, #28a745, #218838);
+      width: 100%;
+    }
+    .footer {
+      font-size: 0.75em;
+      margin-top: 15px;
+      text-align: center;
+      opacity: 0.8;
     }
   </style>
 </head>
@@ -77,6 +88,7 @@
     <div id="summary"></div>
     <button id="copyButton">Copy Summary</button>
   </div>
+  <div class="footer">Version 1.0 | Developed by Anton</div>
   <script src="popup.js"></script>
 </body>
 </html>
